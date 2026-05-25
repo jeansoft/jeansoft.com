@@ -16,16 +16,16 @@
     },
     {
       id: "03",
-      name: "Hugola",
-      url: "https://hugola.jeansoft.com",
-      category: "Static site generator",
+      name: "Taildoor",
+      url: "https://taildoor.com",
+      category: "Chrome extension",
       year: "2025",
     },
     {
       id: "04",
-      name: "Taildoor",
-      url: "https://taildoor.com",
-      category: "Chrome extension",
+      name: "Recurder",
+      url: "https://recurder.com",
+      category: "Screen Recorder",
       year: "2025",
     },
   ];
