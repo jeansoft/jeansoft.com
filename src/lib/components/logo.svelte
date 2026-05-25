@@ -1,5 +1,9 @@
+<script>
+  import { base } from "$app/paths";
+</script>
+
 <span class="logo-wrapper">
-  <img src="/logo.svg" alt="" class="logo-icon" />
+  <img src="{base}/logo.svg" alt="" class="logo-icon" />
   <span class="logo-text">Jeansoft</span>
 </span>
 
@@ -17,7 +21,7 @@
   }
 
   .logo-text {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 15px;
     letter-spacing: -0.02em;

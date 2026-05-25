@@ -7,6 +7,9 @@ const config = {
       filename.split(/[/\\]/).includes("node_modules") ? undefined : true,
   },
   kit: {
+    paths: {
+      base: process.env.BASE_PATH || "",
+    },
     adapter: adapter({
       pages: "build",
       assets: "build",
